@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body{
+            background-color: aliceblue;
+            text-align: center;
+            height: 100vh;
+
+        }
+        .container{
+            padding: 20px;
+        }
+
+        button{
+            padding: 5px;
+            font-size: 18px;
+            color: teal;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>Temeparature Converter </h1>
+    <label for="input">Enter temperature </label>
+    <input type="text" id="input" ><br>
+    <input type="radio" id="radio1" name="radio">
+    <label id="myLabel1">celcius to farenHeight</label>
+    <br>
+    <input type="radio" id="radio2" name="radio">
+    <label id="myLabel2">farenHeight to celcius</label><br>
+    <button id="converter">Convert</button>
+    <p id="temeparature"></p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

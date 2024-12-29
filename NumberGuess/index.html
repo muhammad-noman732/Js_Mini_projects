@@ -1,0 +1,92 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+</head>
+<body>
+    <h1>Number Guessing Game</h1>
+    <label for="inputNum" id="myLabel">Guess the Number:</label>
+    <input type="text" name="input" id="inputNum">
+    <button type="submit" id="myBtn">Test</button>
+    <p id="result"></p>
+    
+
+    
+    <script src="script.js"></script>
+    
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .game-container {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        input[type="number"] {
+            padding: 10px;
+            font-size: 16px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 200px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+        }
+        button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+        p {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        #message {
+            font-size: 18px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <h1>Number Guessing Game</h1>
+        <p>Guess the number between 1 and 100!</p>
+        <label for="guessInput">Enter your guess: </label>
+        <input type="number" id="guessInput" min="1" max="100">
+        
+        <button onclick="checkGuess()">Guess</button>
+        <button onclick="resetGame()" id="resetButton" style="display:none;">Play Again</button>
+        
+        <p id="message"></p>
+        <p>Attempts: <span id="attempts">0</span> / <span id="maxAttempts">10</span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
