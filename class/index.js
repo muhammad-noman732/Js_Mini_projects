@@ -49,29 +49,54 @@
 // console.log(MathUtil.getCircumference(10));
 // console.log(MathUtil.getArea(10));
 
-//     
-class User {
-    static userCount = 0 ;
+//  
+
+// class User {
+//     static userCount = 0 ;
     
-    constructor(username){
-        this.username = username ,
-        User.userCount++
-    }
+//     constructor(username){
+//         this.username = username ,
+//         User.userCount++
+//     }
 
-    sayHello(){
-        console.log(`Hello ,My username is ${this.username}`);
-    }
+//     sayHello(){
+//         console.log(`Hello ,My username is ${this.username}`);
+//     }
 
-    displayUserCount(){
-        console.log(`there are ${User.userCount} user are online`);
-         }
-}
+//     displayUserCount(){
+//         console.log(`there are ${User.userCount} user are online`);
+//          }
+// }
 
-const user1 = new User("noman");
-const user2 = new User("arslan");
-const user3 = new User("ramzn");
-console.log(user1.username);
-user1.sayHello();
-user1.displayUserCount();
+// const user1 = new User("noman");
+// const user2 = new User("arslan");
+// const user3 = new User("ramzn");
+// console.log(user1.username);
+// user1.sayHello();
+// user1.displayUserCount();
+
+
+// class marks {
+//     static sum = 0  ;
+//     constructor(num1 , num2 ){
+//         this.num1 = num1,
+//         this.num2 = num2
+//     }
+
+//     calculateSum(){
+//         marks.sum = this.num1 + this.num2;
+//     }
+//     displaySum(){
+//         console.log(`sum :${marks.sum}`);
+        
+//     }
+//     static dispalyAverage(){
+//         return marks.sum /2 ;    
+//     }
+// }
+// const sumOfTwoNumbers = new marks(2,3);
+// sumOfTwoNumbers.calculateSum(); // Calculate the sum first
+// sumOfTwoNumbers.displaySum();
+// console.log(marks.dispalyAverage());
 
 
