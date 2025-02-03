@@ -21,4 +21,3 @@ console.log(`maximum :${maximun.toFixed(2)}`);
 function getMax(previus , next){
     return Math.max(previus , next);
 }
-

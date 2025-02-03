@@ -16,11 +16,11 @@
 //     return Math.pow(element, 3)
 // }
 
-//////////////// ++++++++++++++++//////////////////////////////
+                //////////////// ++++++++++++++++//////////////////////////////
 
 const dates = ["2024-1-12","2023-2-24","2025-1-20"];
 
-const formattedDates = dates.forEach(formatDates);
+const formattedDates = dates.map(formatDates);
 console.log(formattedDates);
 
 

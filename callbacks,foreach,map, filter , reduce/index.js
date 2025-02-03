@@ -1,5 +1,5 @@
 // callback = a callback is a function that pass as argument to another function
-        // use to handle a synchronus operation":
+        // use to handle a synchronous operation":
         // reading a file
         // network request 
         // interacting with databases
@@ -24,15 +24,16 @@
 // }
 
 // function  displaySum(result){
-//     console.log("sum is " , result7);
+//     console.log("sum is " , result);
     
 // }
+// 
 // sum(2, 3 , displaySum);
 
 
 
 //                      foreach()
-// forEach() is an array method in JavaScript that is used to iterate over every element of the array.
+// forEach() is an array method in JavaScript that is used to iterate over every element of the array. 
 
 // let numbers = [1,2,3,4,5];
 // // behind the scene callback function ko array ka index , array aur value di jati h
@@ -82,9 +83,6 @@ function lowerCase(element , index , array){
 function captalize(element , index , array){
         array[index] = element.charAt(0).toUpperCase() + element.slice(1);
     }
-    
-    
-
 function display(element){
     console.log(element);  
 }

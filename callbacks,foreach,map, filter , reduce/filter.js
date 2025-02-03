@@ -1,5 +1,5 @@
 // filter() = create a new array by filtering  array elements
-
+                                
 // const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 8, 12, 9, 10];
 
 // const eveneNumbers = numbers.filter(isEven);
@@ -32,7 +32,7 @@
 //     return age > 18;
 // }
 
-// +++++++++++++++++++++++++++++++++ new problem          +++++++++++++++++++++++++++++++++++++++++
+// +++++++++++++++++++++++++++++++++  New problem   +++++++++++++++++++++++++++++++++++++++++
 
 const words = ["ali","apple","coconut","pineapple" ,
                 "banana", "kiwi"];
