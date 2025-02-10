@@ -99,7 +99,7 @@
 
 
 // ------------------       .children     ------------------
-// children m bhi hme html collection ml skti h 
+// children m bhi hme html collection ml skti h  
 const element = document.getElementById("desserts");
 const children =  element.children; 
 // children[1].style.color = "red"
